@@ -1,5 +1,8 @@
 {
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
   "rewrites": [
-    { "source": "/:path*", "destination": "/site/:path*" }
+    { "source": "/(.*)", "destination": "/site/$1" }
   ]
 }
