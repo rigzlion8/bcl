@@ -1,0 +1,14 @@
+{
+  "name": "bcl-website",
+  "version": "1.0.0",
+  "description": "Basal Consultancy Limited — Evidence-Driven Consulting for Equitable and Resilient Change Across Africa",
+  "private": true,
+  "scripts": {
+    "dev": "live-server --port=3800 --no-browser --watch=.",
+    "start": "live-server --port=3800 --no-browser",
+    "serve": "npx http-server -p 3800 -c-1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
